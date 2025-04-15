@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  #battleArea {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #battleCanvas {
+    border: 2px solid black;
+    background-color: #333;
+  }
+  
+  #dialogueBox {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 300px;
+    color: white;
+  }
+  
+  #playerHealth {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+  }
+  
